@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.headerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: "Gill Sans";
+    width: 100%;
+}
+
+.headerButton {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.createButton {
+    position: absolute;
+    top: 80%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    text-decoration: none;
+    opacity: .8;
+}
+
+
+#tourList {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+
+}
+
+#tourList li a {
+    height: 100px;
+    opacity: .6;
+    text-align: center;
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 4px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-family: "Helvetica Neue";
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+}
+
+#tourList li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
