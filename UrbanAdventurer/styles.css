@@ -28,7 +28,7 @@ body {
     text-align: center;
     font-size: 85px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 50px;
     position: relative;
     z-index: 1;
@@ -37,6 +37,7 @@ body {
 .mainSubTitle {
     font-family: "Helvetica Neue";
     color: white;
+    font-size:
     text-align: center;
     position: relative;
     z-index: 1;
