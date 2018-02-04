@@ -1,2 +1,0 @@
-# urbanadventurer
-SLOHacks Project
