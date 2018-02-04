@@ -1,0 +1,19 @@
+
+/** Body and Head styles */
+
+body {
+    background-image: url("assets/img/SanFrancisco.jpg");
+}
+
+/** All other styles */
+
+.mainTitle {
+    font-family: "Helvetica Neue";
+    text-align: center;
+    font-size: 40px;
+}
+
+.mainSubTitle {
+    font-family: "Helvetica Neue";
+    text-align: center;
+}
