@@ -67,13 +67,12 @@
 }
 
 #tourList li a {
-    height: 100px;
     opacity: .6;
     text-align: center;
     border: 1px solid #ddd; /* Add a border to all links */
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6; /* Grey background color */
-    padding: 4px; /* Add some padding */
+    padding: 40px; /* Add some padding */
     text-decoration: none; /* Remove default text underline */
     font-family: "Helvetica";
     font-size: 18px; /* Increase the font-size */
